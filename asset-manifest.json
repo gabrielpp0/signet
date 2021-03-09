@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pvt-ex2-solution/static/css/main.df90d0de.chunk.css",
+    "main.js": "/pvt-ex2-solution/static/js/main.87452dce.chunk.js",
+    "main.js.map": "/pvt-ex2-solution/static/js/main.87452dce.chunk.js.map",
+    "runtime-main.js": "/pvt-ex2-solution/static/js/runtime-main.f78f5089.js",
+    "runtime-main.js.map": "/pvt-ex2-solution/static/js/runtime-main.f78f5089.js.map",
+    "static/js/2.fc5a104f.chunk.js": "/pvt-ex2-solution/static/js/2.fc5a104f.chunk.js",
+    "static/js/2.fc5a104f.chunk.js.map": "/pvt-ex2-solution/static/js/2.fc5a104f.chunk.js.map",
+    "index.html": "/pvt-ex2-solution/index.html",
+    "static/css/main.df90d0de.chunk.css.map": "/pvt-ex2-solution/static/css/main.df90d0de.chunk.css.map",
+    "static/js/2.fc5a104f.chunk.js.LICENSE.txt": "/pvt-ex2-solution/static/js/2.fc5a104f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f78f5089.js",
+    "static/js/2.fc5a104f.chunk.js",
+    "static/css/main.df90d0de.chunk.css",
+    "static/js/main.87452dce.chunk.js"
+  ]
+}
