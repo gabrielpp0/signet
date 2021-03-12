@@ -25,7 +25,7 @@ export default function Appli() {
           insatanceFirestore.collection('utilisateurs').doc(util.uid).set({
             nom: util.displayName,
             courriel: util.email,
-            date: firebase.firestore.FieldValue.serverTimestamp();
+            date: firebase.firestore.FieldValue.serverTimestamp()
           }, {merge: true});
         }
       }
