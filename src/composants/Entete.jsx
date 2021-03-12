@@ -2,13 +2,21 @@ import './Entete.scss';
 
 import { Avatar } from '@material-ui/core'; 
 
-import avatarImg from '../images/avatar.png';
+import Button from '@material-ui/core/Button';
+import firebase from 'firebase/app';
+export default function Entete({utilisateur}) {
 
-export default function Entete() {
   return (
     <header className="Entete">
+      <Button  
+      variant="outlined" 
+      size="small" 
+      className="btn-deconexion" 
+      onClick={() => firebase.auth.signOut()}>
+        D/conexion
+      </Button>
       <div className="logo">Signets</div>
-      <div className="utilisateur">Camille Semaan <Avatar className="avatar" alt="Camille Semaan" src={avatarImg} /></div>
+      <div className="utilisateur">{utilisateur.displayName} <Avatar className="avatar" alt={utilisateur.displayName} src={utilisateur.photoURL} /></div>
     </header>
   );
 }
